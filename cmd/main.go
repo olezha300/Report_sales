@@ -4,9 +4,9 @@ import (
 	"os"
 
 	rgm "github.com/egorus1442/Report-Generation-Microservice"
-	"github.com/egorus1442/Report-Generation-Microservice/pkg/handler"
-	"github.com/egorus1442/Report-Generation-Microservice/pkg/repository"
-	"github.com/egorus1442/Report-Generation-Microservice/pkg/service"
+	"github.com/egorus1442/Report-Generation-Microservice/internal/handler"
+	"github.com/egorus1442/Report-Generation-Microservice/internal/repository"
+	"github.com/egorus1442/Report-Generation-Microservice/internal/service"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
